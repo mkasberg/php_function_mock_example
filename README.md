@@ -1,5 +1,7 @@
 # PHP Function Mocks
 
+[![Build Status](https://img.shields.io/travis/mkasberg/php_function_mock_example.svg?style=flat-square)](https://travis-ci.org/mkasberg/php_function_mock_example)
+
 A simple example of how to mock global functions in PHP.
 
 Notice how HelloPrinter.php uses the print_r function. Then, notice how we 
