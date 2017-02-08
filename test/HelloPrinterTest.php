@@ -9,7 +9,7 @@ function print_r($string)
     HelloPrinterTest::$printedString = $string;
 }
 
-class HelloPrinterTest extends \PHPUnit_Framework_Testcase
+class HelloPrinterTest extends \PHPUnit_Framework_TestCase
 {
     public static $printedString;
 
